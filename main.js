@@ -168,10 +168,10 @@ saveButton.addEventListener("click", event => {
 
     console.log(newArtistObj);
         
-    saveArtist(newArtistObj)
-    .then(parsedResult => {
-        console.log("What is the result", parsedResult);
-    });
+    // saveArtist(newArtistObj)
+    // .then(parsedResult => {
+    //     console.log("What is the result", parsedResult);
+    // });
     
 });
 
